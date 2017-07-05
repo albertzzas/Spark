@@ -1,0 +1,9 @@
+Maven
+scala 2.11
+
+Eclipse
+安装eclipse scala插件：http://download.scala-ide.org/sdk/helium/e38/scala211/stable/site
+安装eclipse m2e connector插件：http://download.eclipse.org/technology/m2e/releases
+add scala library
+
+Spark 2.0 Dependency
