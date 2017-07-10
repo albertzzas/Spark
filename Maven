@@ -1,0 +1,43 @@
+Maven 
+POM
+>JDK 1.6,用1.7
+
+1项目管理依赖 jar
+2项目构建
+
+Eclipse
+Ant
+Maven 有约束
+
+install
+maven与eclipse需要匹配
+低版本需要自己手动安装
+高版本自带
+
+
+配置
+
+
+全局（默认）conf/settings.xml--仓库地址
+default:  (用户路径 users/xXXx/)
+~/.m2/repository
+<local>改下自己 的本地仓库路径</local>
+
+用户
+~/.m2/conf/settings.xml
+复制 文件settings.xml
+
+先使用用户配置，后选择全局，如果没有用户，会搜索全局；
+局部有限，先使用用户配置
+
+
+工程结构：
+Project
+	|-src
+		|-main(正式源码)
+			|-java（文件目录）
+			|-resources(资源文件目录)
+		|-test(测试)
+	
+	|-target(class,报告等信息存储)
+	|-pom.xml(工程描述文件)
